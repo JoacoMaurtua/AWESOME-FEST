@@ -25,6 +25,28 @@ const GlobalStyles = createGlobalStyle`
   p{
     line-height: 2rem;
   };
+
+  .Before{
+    position: relative;
+    padding: .5rem 3rem;
+    &::before{
+      content: '';
+      position: absolute;
+      left: 0;
+      top: 50%;
+      width: 35px;
+      height: 2px;
+      background-color: #ff7777;
+    }
+  }
+
+  .Text{
+        background: #ff7777;
+        background-clip: text;
+        display: inline-block;
+        -webkit-text-fill-color: transparent;
+        -webkit-background-clip: text;
+  }
   
 `;
 
