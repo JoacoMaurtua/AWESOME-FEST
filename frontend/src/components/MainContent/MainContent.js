@@ -2,7 +2,7 @@ import React from 'react';
 import './MainContent.scss';
 import Navigation from '../Navigation/Navigation';
 import SmallHeading from '../SmallHeading/SmallHeading';
-import work from '../../images/work.png';
+import work from '../../images/work.svg';
 
 const Maincontent = () => {
   return (
@@ -13,12 +13,10 @@ const Maincontent = () => {
           <SmallHeading title={'¡El mundo necesita personas como tú!'} identifier={'Before'}/>
 
           <h1>
-                Filtramos empleos tecnológicos para tí <span className='Text'>¡Que esperas!</span> 
+              Filtramos empleos tecnológicos para tí <span className='Text'>¡Que esperas!</span> 
           </h1>
           <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                Vero id unde officiis hic nihil, quasi soluta ex corrupti nesciunt dolorem. 
-                Cumque obcaecati sint officiis quis laboriosam vitae.
+              En Get on Board podrás postular a trabajos exclusivos y cuidadosamente seleccionados en startups y empresas tecnológicas de todo el mundo.
           </p>
         </div>
         <div className="right">
