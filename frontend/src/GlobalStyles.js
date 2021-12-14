@@ -15,7 +15,17 @@ const GlobalStyles = createGlobalStyle`
     font-weight: 400;
     color: white;
   };
+  
+  a{
+    color: inherit;
+    font-family: inherit;
+    text-decoration: none;
+  };
 
+  p{
+    line-height: 2rem;
+  };
+  
 `;
 
 export default GlobalStyles;

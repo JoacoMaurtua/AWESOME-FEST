@@ -1,0 +1,32 @@
+.navigation-container{
+  min-height:10vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 1.5rem;
+  .nav-items{
+    display: flex;
+    align-items: center;
+    li{
+      margin: 0 1rem;
+    }
+    .primary-btn{
+      margin-left: 3rem;
+      background-color: #00bae9;
+      padding: .6rem 1rem;
+      border-radius: 70px;
+      cursor: pointer;
+      transition: all .4s ease-in-out;
+      &:hover{
+        background-color: #ff7777;
+      }
+    }
+  }
+
+  .logo{
+    img{
+      width: 100px;
+    }
+  }
+
+}
