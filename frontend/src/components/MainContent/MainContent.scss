@@ -5,4 +5,32 @@
   width:80%;
   height:100%;
   transform: translateX(-50%);
+
+  .content{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    height: 100%;
+    width: 100%;
+    .left{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        h1{
+            padding: 1.8rem 0;
+        }
+        .btns-con{
+            margin-top: 3rem;
+        }
+    }
+
+    .right{
+
+      img{
+        position: absolute;
+        right: 3%;
+        top: 30%;
+        width: 40%;
+      }
+    }
+}
 }
