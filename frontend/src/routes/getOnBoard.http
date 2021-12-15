@@ -1,0 +1,5 @@
+### GET RESULTADOS
+GET https://www.getonbrd.com/api/v0/categories?per_page=10&page=1
+
+###
+GET https://www.getonbrd.com/api/v0/categories/programming/jobs?per_page=1&page=1&expand=[%22company"]
