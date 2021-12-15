@@ -23,7 +23,7 @@ const Navigation = () => {
           <a href="#resources">Contacto</a>
         </li>
 
-        <div className="primary-btn">EMPIEZA YA!</div>
+        <div className="primary-btn">¡EMPIEZA YA!</div>
       </ul>
     </nav>
   );

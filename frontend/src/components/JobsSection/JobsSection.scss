@@ -1,0 +1,25 @@
+.jobSection-container{
+  color:white;
+    .grid-item{
+      transform: scale(0.87);
+      transition: all .3s ease-in-out;
+      background-color: rgb(41, 230, 255);
+      box-shadow: 5px 12px 10px var(--boxesShadow);
+      padding: 1.8rem .8rem;
+      border-radius: 10px;
+      
+      &:hover{
+        transform: scale(0.90)
+      }
+      h3{
+        padding-bottom: 1rem;
+        font-size: 1.3rem;
+        color: var(--primaryColor);
+      }
+      .job-content{
+        display: block;
+        position: relative;
+        
+      }
+    }
+}

@@ -15,6 +15,13 @@ const GlobalStyles = createGlobalStyle`
     font-weight: 400;
     color: white;
   };
+
+  .title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3rem;
+  }
   
   a{
     color: inherit;

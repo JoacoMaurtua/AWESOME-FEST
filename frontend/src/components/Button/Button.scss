@@ -1,0 +1,25 @@
+.buttons-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 70%;
+  margin: 1.5rem auto;
+
+  .button-container{
+    outline: none;
+    border: none;
+    background-color: #00c4f5;
+    padding: .4rem 1rem;
+    font-size:inherit;
+    cursor: pointer;
+    transition: all .4s ease-in-out;
+    border-radius: 8px;
+    font-weight: bold;
+    margin-bottom: .6rem;
+    &:not(:last-child){
+      margin-right: 1rem;
+    }
+
+  }
+}
