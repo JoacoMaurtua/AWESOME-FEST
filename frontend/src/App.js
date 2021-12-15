@@ -8,7 +8,6 @@ function App() {
     <div className="App">
       <MainArea/>
       <SliderCarrousel />
-      
 
       <MenuArea/>
     </div>

@@ -1,12 +1,12 @@
 import React from 'react';
 import './Button.scss';
 
-const Button = ({filter,button}) => {
+const Button = ({filtered,button}) => {
   return (
     <div className ="buttons-container">
       {
         button.map((button,index)=>{
-          return <button key={index} onClick={()=>filter(button)} className="button-container">
+          return <button key={index} onClick={()=>filtered(button)} className="button-container">
             {button}
           </button>
         })

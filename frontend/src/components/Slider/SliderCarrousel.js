@@ -71,6 +71,7 @@ console.log(data);
 
   return (
     <div className="container">
+      <h1 className="title">¡Te necesitan si eres parte de esto!</h1>
       <Slider {...settings}>
         {images.map((img, idx) => (
           <div className={idx === imageIndex ? "slide activeSlide" : "slide"}>
